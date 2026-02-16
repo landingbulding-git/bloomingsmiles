@@ -13,7 +13,10 @@ const BookingForm: React.FC<BookingFormProps> = ({ id = "booking-form", isCompac
         <p className="text-gray-600 text-sm">Response in under 24 hours. Privacy Guaranteed.</p>
       </div>
 
-      <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+      <form className="space-y-4" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="3e13b2e0-5111-49eb-8832-356efc1681b5" />
+        <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
+        
         <div>
           <label htmlFor={`name-${id}`} className="sr-only">Full Name</label>
           <input
