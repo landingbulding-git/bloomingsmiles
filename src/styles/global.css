@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0e7490;
+  --color-secondary: #be185d;
+  --color-brand-blue: #e0f2fe;
+  --color-brand-text: #1e293b;
+  --font-sans: 'Fira Sans', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+  --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}

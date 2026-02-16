@@ -1,0 +1,47 @@
+---
+import '../styles/global.css';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import SocialProofBar from '../components/SocialProofBar';
+import ValueProps from '../components/ValueProps';
+import ProcessFlow from '../components/ProcessFlow';
+import TeamSection from '../components/TeamSection';
+import WallOfLove from '../components/WallOfLove';
+import FAQ from '../components/FAQ';
+import CloserSection from '../components/CloserSection';
+import Footer from '../components/Footer';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blooming Smiles | Pediatric Dentist & Orthodontist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-slate-800 antialiased font-sans">
+    <div class="flex flex-col min-h-screen">
+      <Navbar client:load />
+      <main class="flex-grow">
+        <Hero client:load />
+        <SocialProofBar client:visible />
+        <ValueProps client:visible />
+        <ProcessFlow client:visible />
+        <TeamSection client:visible />
+        <WallOfLove client:visible />
+        <FAQ client:visible />
+        <CloserSection client:visible />
+      </main>
+      <Footer client:visible />
+    </div>
+  </body>
+</html>
