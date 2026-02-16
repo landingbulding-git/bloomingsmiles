@@ -32,7 +32,7 @@ const WallOfLove: React.FC = () => {
         </div>
         
         <div className="mt-12 text-center">
-          <a href="#contact" className="text-primary font-bold hover:underline">Read more reviews on Yelp & Google &rarr;</a>
+          <a href="#booking-form" className="text-primary font-bold hover:underline">Read more reviews on Yelp & Google &rarr;</a>
         </div>
       </div>
     </section>

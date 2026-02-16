@@ -44,7 +44,7 @@ const ProcessFlow: React.FC = () => {
         </div>
 
         <div className="mt-12 text-center">
-            <a href="#contact" className="inline-block bg-secondary hover:bg-pink-700 text-white font-bold py-4 px-10 rounded-full shadow-xl transform transition hover:-translate-y-1">
+            <a href="#booking-form" className="inline-block bg-secondary hover:bg-pink-700 text-white font-bold py-4 px-10 rounded-full shadow-xl transform transition hover:-translate-y-1">
                 Start Step 1 Now
             </a>
         </div>

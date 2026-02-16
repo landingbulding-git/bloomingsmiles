@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
             <a href="#pediatric" className="text-gray-600 hover:text-primary font-medium transition-colors">Pediatric Dentistry</a>
             <a href="#ortho" className="text-gray-600 hover:text-primary font-medium transition-colors">Orthodontics</a>
             <a href="#reviews" className="text-gray-600 hover:text-primary font-medium transition-colors">Reviews</a>
-            <a href="#contact" className="bg-secondary hover:bg-pink-700 text-white px-6 py-3 rounded-full font-bold shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+            <a href="#booking-form" className="bg-secondary hover:bg-pink-700 text-white px-6 py-3 rounded-full font-bold shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
               Request Your Visit
             </a>
           </div>
@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
             <a href="#pediatric" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Pediatric Dentistry</a>
             <a href="#ortho" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Orthodontics</a>
             <a href="#reviews" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Reviews</a>
-            <a href="#contact" className="block w-full text-center mt-4 bg-secondary text-white px-6 py-3 rounded-md font-bold text-lg">
+            <a href="#booking-form" className="block w-full text-center mt-4 bg-secondary text-white px-6 py-3 rounded-md font-bold text-lg">
               Request Your Visit
             </a>
           </div>

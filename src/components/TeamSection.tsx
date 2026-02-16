@@ -35,7 +35,7 @@ const TeamSection: React.FC = () => {
             </p>
 
             <div className="pt-4">
-              <a href="#contact" className="text-secondary font-bold hover:text-pink-700 underline underline-offset-4 decoration-2">
+              <a href="#booking-form" className="text-secondary font-bold hover:text-pink-700 underline underline-offset-4 decoration-2">
                 Schedule an appointment with our specialists &rarr;
               </a>
             </div>
